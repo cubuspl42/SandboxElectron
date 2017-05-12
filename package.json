@@ -1,0 +1,26 @@
+{
+  "name": "sandbox-electron",
+  "version": "1.0.0",
+  "description": "**Clone and run for a quick way to see Electron in action.**",
+  "main": "main.js",
+  "dependencies": {
+    "bittorrent-dht": "https://github.com/metamystical/bittorrent-dht/tarball/master",
+    "bluebird": "^3.5.0",
+    "ed25519-supercop": "^1.0.2",
+    "k-rpc": "https://github.com/cubuspl42/k-rpc/tarball/master",
+    "webtorrent": "^0.98.18"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "electron": "^1.6.6",
+    "electron-rebuild": "^1.5.7",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "typescript": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
